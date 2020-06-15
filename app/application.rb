@@ -39,7 +39,7 @@ class Application
 
     resp.finish
   end
- @@ def handle_search(search_term)
+  def handle_search(search_term)
       return "Couldn't find #{search_term}"
     end
   end
