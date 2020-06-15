@@ -5,7 +5,7 @@ class Application
 
   def call(env)
     resp = Rack::Response.new
-@@ -10,9 +11,25 @@ def call(env)
+      @@ def call(env)
       @@items.each do |item|
         resp.write "#{item}\n"
       end
